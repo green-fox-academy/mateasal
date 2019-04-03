@@ -1,0 +1,74 @@
+body {
+    background-color: ghostwhite;
+    margin: auto;
+    padding: 0;
+    font-family: "Helvetica";
+}
+
+.header {
+    background-color: #00A699;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    padding: 0 15rem;
+}
+
+.logo {
+    float: left;
+    color: floralwhite;
+}
+
+.blog {
+    width: 600px;
+    padding: 5rem 15rem;
+}
+
+input {
+    background-color: ghostwhite;
+    border: 2px solid gray;
+    padding-left: 5px;
+    border-radius: 4px;
+}
+
+input[name=title] {
+    width: 10rem;
+    height: 2rem;
+}
+
+input[name=content] {
+    width: 40rem;
+    height: 8rem;
+}
+
+input:focus {
+    background-color: white;
+}
+    
+input[type=submit] {
+    background-color: darkgray;
+    border-color: gray;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: floralwhite;
+    color: gray;
+}
+
+form p {
+    margin-bottom: 6px;
+}
+
+.posts {
+    border: 2px solid gray;
+    border-radius: 4px;
+    width: 40rem;
+}
+
+.posts h2{
+    padding-left: 8px;
+}
+
+.posts p{
+    padding-left: 10px;
+}

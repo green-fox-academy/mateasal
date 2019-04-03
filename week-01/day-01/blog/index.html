@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+    
+        <meta charset="utf-8" />
+        <meta name="keywords" content="blog">
+        <meta name="description" content="Mate's blog">
+        <title>Mate's Blog</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+            
+    
+    <body>
+        
+        <div class="header">
+            
+            <div class="logo">
+                        
+                 <h1>The Blog</h1>
+                
+            </div>
+    
+        </div>
+        
+        <div class="blog">
+        
+            <h3>Add new post</h3>
+        
+            
+            <form name='myform'>
+                <p><strong>Title</strong></p>
+                <input type="text" name="title" placeholder="What's up?">
+                <p><strong>Content</strong></p>
+                <input type="text" name="content" placeholder="Write something!"> <br><br>
+                <input type="submit" value="Submit"  onclick='check(); return false' >
+            </form>
+            
+            <h3>Posts</h3>
+            
+        <div class="posts">
+
+            <h2 id='f1'></h2>
+            
+            <p id='f2'></p>
+            
+        </div>
+            
+        </div>
+        
+    <script>
+        function check()
+        {
+            document.getElementById('f1').innerHTML = document.myform.title.value;
+            document.getElementById('f2').innerHTML = document.myform.content.value;
+        }
+    </script>
+        
+    </body>
+
+
+</html>

@@ -1,0 +1,95 @@
+body {
+    background-image: url(assets/cream_pixels.png);
+    margin: auto;
+    padding: 0;
+}
+
+.header {
+    background: #0A122A;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.nav {
+    float: right;
+    font-size: 20px;
+    font-family: "Courier New";
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: deeppink;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.logo {
+    float: left;
+    padding-top: 10px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.title {
+    color: deeppink;
+}
+
+.intro {
+    margin-bottom: 60px;
+}
+
+.dots {
+    text-align: center;
+}
+
+.tech {
+    margin-bottom: 60px;
+}
+
+.tech h1 {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.content {
+    margin: 0 auto;
+    padding-top: 100px;
+    font-family: "Courier New";
+    font-size: 18px;
+}
+
+.tech p {
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.tech h1 {
+    font-size: 35px;
+}
+
+.credit {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
