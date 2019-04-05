@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="837af552-5589-4d05-8376-f319f689bf26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CountFromTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DrawDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DrawTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IWontCheatOnTheExams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MileToKmConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OneTwoALot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PartyIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawDiagonal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DrawTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="316">
+              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -112,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DrawDiagonal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="585">
+              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -296,12 +285,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554362442900</updated>
-      <workItem from="1554362444425" duration="21572000" />
+      <workItem from="1554362444425" duration="26183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21572000" />
+    <option name="totallyTimeSpent" value="26183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -519,15 +508,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DrawTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="316">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DrawDiagonal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="585">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
         </state>
       </provider>
     </entry>

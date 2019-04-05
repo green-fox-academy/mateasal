@@ -23,21 +23,38 @@ public class DrawDiagonal {
 
         int input = scanner.nextInt();
 
-        for(int a = 1; a <= input; a++){
+        for (int a = 1; a <= input; a++) {
 
             if ((a == 1) || (a == input)) {
 
-                for (int b = 1; b <= input; b += input) {
+                for (int b = 1; b <= input; b++) {
 
                     System.out.print("%");
+
+                }
+
+            } else {
+
+                for (int c = 1; c <= input; c++) {
+
+                    if ((c == 1) || (c == input) || (c == a)) {
+
+                        System.out.print("%");
+
+                    } else {
+
+                            System.out.print(" ");
+
+                            }
+
+                        }
+
+                    }
+
+                System.out.println("");
+
                 }
 
             }
 
-            System.out.println("%");
-
         }
-
-    }
-
-}
