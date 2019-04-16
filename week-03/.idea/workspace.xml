@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0848b29c-723a-444c-b52c-109acfa9d246" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CountLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WriteSingleLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintEachLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintEachLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZeroDivide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZeroDivide.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +29,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CountLines.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WriteSingleLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,16 +83,11 @@
         <option value="$PROJECT_DIR$/src/Exceptions.java" />
         <option value="$PROJECT_DIR$/src/ExcPractice.java" />
         <option value="$PROJECT_DIR$/src/UnhandledException.java" />
-        <option value="$PROJECT_DIR$/src/ZeroDivide.java" />
         <option value="$PROJECT_DIR$/src/PrintEachTask.java" />
+        <option value="$PROJECT_DIR$/src/ZeroDivide.java" />
         <option value="$PROJECT_DIR$/src/PrintEachLine.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/CountLines.java" />
+        <option value="$PROJECT_DIR$/src/WriteSingleLine.java" />
       </list>
     </option>
   </component>
@@ -88,6 +109,11 @@
             <path>
               <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
               <item name="week-03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="week-03" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
@@ -130,7 +156,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintEachLine">
+  <component name="RunManager" selected="Application.WriteSingleLine">
+    <configuration name="CountLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountLines" />
+      <module name="week-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrintEachLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrintEachLine" />
       <module name="week-03" />
@@ -145,6 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriteSingleLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WriteSingleLine" />
+      <module name="week-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZeroDivide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ZeroDivide" />
       <module name="week-03" />
@@ -154,6 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteSingleLine" />
+        <item itemvalue="Application.CountLines" />
         <item itemvalue="Application.PrintEachLine" />
         <item itemvalue="Application.ZeroDivide" />
         <item itemvalue="Application.UnhandledException" />
@@ -170,12 +212,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555400623175</updated>
-      <workItem from="1555400627473" duration="1719000" />
+      <workItem from="1555400627473" duration="4093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1719000" />
+    <option name="totallyTimeSpent" value="4093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -186,7 +228,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -196,7 +238,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,6 +261,16 @@
     <entry file="file://$PROJECT_DIR$/src/Exceptions.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ZeroDivide.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -226,10 +278,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
+    <entry file="file://$PROJECT_DIR$/src/CountLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="183">
+          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WriteSingleLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
