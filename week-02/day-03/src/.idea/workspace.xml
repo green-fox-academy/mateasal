@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59f5ed80-fa44-444d-8871-8fafb3806fba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../alternative-day-04/src/Bunnies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../alternative-day-04/src/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../alternative-day-04/src/Hexagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../alternative-day-04/src/MoreBunnies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../alternative-day-04/src/NumberAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../alternative-day-04/src/Powwer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../alternative-day-04/src/SumDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/ArrayListAndCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/CollectionClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/ListIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/ListIntroduction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/MapIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/PersonalFinance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/ProductDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/ShoppingList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/SimpleReplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/TakesLonger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/TelephoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/TodoPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/UrlFixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/Workshop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/mapIntroduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-02/src/practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CenterBoxFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CenteredSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkerboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ColoredBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConnectTheDots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Diagonals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FourRectangles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionToCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoToCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HorizontalLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LineInTheMiddle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Peach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Peach2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PositionSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PurpleSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PurpleSteps3d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RainbowBoxFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bucky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/src/Bunnies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/src/BunniesAgain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/src/GreatestCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/src/NumberAdderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/src/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/src/RecursionPractice1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/src/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-04/src/SummDigitsTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-05/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-05/day-05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-05/src/LinePlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day-05/src/LinePlayQuarters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-01/src/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-01/src/Reverse.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Checkerboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59f5ed80-fa44-444d-8871-8fafb3806fba" name="Default Changelist" comment="" />
+      <created>1555072141709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555072141709</updated>
+      <workItem from="1555072143480" duration="1479000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1479000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Checkerboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

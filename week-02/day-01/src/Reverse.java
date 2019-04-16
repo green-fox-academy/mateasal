@@ -11,10 +11,18 @@ public class Reverse {
 
         int[] aj = {3, 4, 5, 6, 7};
 
-        for (int i = 0; i < aj.length; i++){
+        int temp;
+        int start = 0;
+        int end = aj.length-1;
 
+        while (start < end){
+            temp = aj[start];
+            aj[start] = aj[end];
+            aj[end] = temp;
 
-
+            start++;
+            end--;
         }
+        System.out.println(Arrays.toString(aj));
     }
 }
