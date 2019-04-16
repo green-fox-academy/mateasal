@@ -11,7 +11,7 @@ public class CopyFile {
         // It should take the filenames as parameters
         // It should return a boolean that shows if the copy was successful
 
-        System.out.println(copyContents("assets/old-file.txt", "my-file.txt"));
+        System.out.println(copyContents("assets/old-file.txt", "my-file.txt"));c
     }
 
     public static boolean copyContents (String fileName1, String fileName2){
