@@ -4,7 +4,7 @@ public class ZeroDivide {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+p
         int divisor = scanner.nextInt();
 
         try {

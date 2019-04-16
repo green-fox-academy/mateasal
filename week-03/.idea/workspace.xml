@@ -2,100 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0848b29c-723a-444c-b52c-109acfa9d246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/alternative-day-04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/src/Bunnies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/src/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/src/Hexagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/src/MoreBunnies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/src/NumberAdder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/src/Powwer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/alternative-day-04/src/SumDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/day-02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/ArrayListAndCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/CollectionClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/ListIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/ListIntroduction2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/MapIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/PersonalFinance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/ProductDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/ShoppingList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/SimpleReplace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/TakesLonger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/TelephoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/TodoPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/UrlFixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/Workshop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/mapIntroduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-02/src/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/day-03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/CenterBoxFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/CenteredSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/Checkerboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/ColoredBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/ConnectTheDots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/Diagonals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/FourRectangles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/FunctionToCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/GoToCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/HorizontalLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/LineInTheMiddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/Peach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/Peach2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/PositionSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/PurpleSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/PurpleSteps3d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/RainbowBoxFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-03/src/bucky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/day-04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/src/Bunnies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/src/BunniesAgain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/src/GreatestCommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/src/NumberAdderTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/src/Power.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/src/RecursionPractice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/src/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-04/src/SummDigitsTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-05/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-05/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-05/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-05/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-05/day-05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-05/src/LinePlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week-02/day-05/src/LinePlayQuarters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintEachLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZeroDivide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week-02/day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week-02/day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week-02/day-01/src/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week-02/day-01/src/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintEachLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintEachLine.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="300">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,6 +112,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -216,7 +130,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZeroDivide">
+  <component name="RunManager" selected="Application.PrintEachLine">
+    <configuration name="PrintEachLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintEachLine" />
+      <module name="week-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnhandledException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UnhandledException" />
       <module name="week-03" />
@@ -233,6 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintEachLine" />
         <item itemvalue="Application.ZeroDivide" />
         <item itemvalue="Application.UnhandledException" />
       </list>
@@ -248,12 +170,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555400623175</updated>
-      <workItem from="1555400627473" duration="1029000" />
+      <workItem from="1555400627473" duration="1719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1029000" />
+    <option name="totallyTimeSpent" value="1719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -264,7 +186,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -274,7 +196,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,8 +228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
