@@ -7,6 +7,10 @@ public class Sharpie {
     public Sharpie (String color, float width){
     }
 
+    public Sharpie(){
+
+    }
+
     public void use(){
         inkAmount--;
     }
