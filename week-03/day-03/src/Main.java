@@ -43,5 +43,11 @@ public class Main {
         System.out.println(tiger.getHunger());
         System.out.println(tiger.getThirst());
 
+        Sharpie redSharpie = new Sharpie("red", 1.2F);
+
+        redSharpie.use();
+
+        System.out.println(redSharpie.getInkAmount());
+
     }
 }

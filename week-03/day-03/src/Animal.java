@@ -3,17 +3,21 @@ public class Animal {
     int hunger = 50;
     int thirst = 50;
 
+    public Animal(){
+
+    }
+
     public void eat(){
-        hunger --;
+        hunger--;
     }
 
     public void drink(){
-        thirst --;
+        thirst--;
     }
 
     public void play(){
-        thirst ++;
-        hunger ++;
+        thirst++;
+        hunger++;
     }
 
     public int getHunger() {
