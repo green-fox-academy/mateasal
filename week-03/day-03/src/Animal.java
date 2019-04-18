@@ -2,6 +2,16 @@ public class Animal {
 
     int hunger = 50;
     int thirst = 50;
+    String name;
+
+    @Override
+    public String toString(){
+        return name;
+    }
+
+    public Animal(String name){
+        this.name = name;
+    }
 
     public Animal(){
 
