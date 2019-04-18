@@ -5,19 +5,16 @@ public class BlogPost {
     String text;
     String publicationDate;
 
-    public void setAuthorName(String authorName) {
-        this.authorName = authorName;
-    }
+    @Override
+    public String toString() {return title;}
 
-    public void setTitle(String title) {
+    public BlogPost(String authorName, String title, String publicationDate){
+        this.authorName = authorName;
         this.title = title;
+        this.publicationDate = publicationDate;
     }
 
     public void setText(String text) {
         this.text = text;
-    }
-
-    public void setPublicationDate(String publicationDate) {
-        this.publicationDate = publicationDate;
     }
 }
