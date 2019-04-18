@@ -1,3 +1,5 @@
+package StudentTeacher;
+
 public class Teacher {
 
     public void teach(Student student){

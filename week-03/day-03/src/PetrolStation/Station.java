@@ -1,3 +1,7 @@
+package PetrolStation;
+
+import PetrolStation.Car;
+
 public class Station {
 
     public Station(int gasAmount){

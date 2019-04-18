@@ -1,3 +1,5 @@
+package FleetOfThings;
+
 public class FleetOfThings {
 
     public static void main(String[] args) {

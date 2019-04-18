@@ -1,3 +1,7 @@
+package Blog;
+
+import Blog.Blog;
+
 public class BlogTest {
 
     public static void main(String[] args) {

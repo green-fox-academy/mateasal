@@ -1,3 +1,7 @@
+package Pokemon;
+
+import Pokemon.Pokemon;
+
 import java.util.ArrayList;
 import java.util.List;
 

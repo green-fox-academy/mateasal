@@ -1,4 +1,8 @@
-public class Main {
+import Blog.BlogPost;
+import Farm.Animal;
+import Sharpies.Sharpie;
+
+public class PracticeMain {
 
     public static void main(String[] args) {
 

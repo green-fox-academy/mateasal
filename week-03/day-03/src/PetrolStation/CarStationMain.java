@@ -1,3 +1,7 @@
+package PetrolStation;
+
+import PetrolStation.Car;
+
 public class CarStationMain {
 
     public static void main(String[] args) {
