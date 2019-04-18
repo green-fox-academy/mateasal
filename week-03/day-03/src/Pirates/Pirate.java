@@ -6,6 +6,10 @@ public class Pirate {
     boolean alive = true;
     boolean asleep = false;
 
+    public Pirate(){
+
+    }
+
     public void drinkSomeRum(){
         if (alive == true){
             numberOfRumsHad++;

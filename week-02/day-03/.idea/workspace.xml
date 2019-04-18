@@ -2,65 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be7f4a3-b18b-41c3-bbbc-ecbfa940c694" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../alternative-day-04/src/Bunnies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alternative-day-04/src/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alternative-day-04/src/Hexagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alternative-day-04/src/MoreBunnies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alternative-day-04/src/NumberAdder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alternative-day-04/src/Powwer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alternative-day-04/src/SumDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/ArrayListAndCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/CollectionClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/ListIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/ListIntroduction2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/MapIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/PersonalFinance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/ProductDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/ShoppingList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/SimpleReplace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/TakesLonger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/TelephoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/TodoPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/UrlFixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/Workshop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/mapIntroduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CenterBoxFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CenteredSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Checkerboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColoredBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConnectTheDots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diagonals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FourRectangles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionToCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoToCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HorizontalLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LineInTheMiddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Peach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Peach2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PositionSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PurpleSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PurpleSteps3d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RainbowBoxFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-04/src/Bunnies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-04/src/BunniesAgain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-04/src/GreatestCommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-04/src/NumberAdderTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-04/src/Power.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-04/src/RecursionPractice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-04/src/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-04/src/SummDigitsTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-01/src/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-01/src/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/day-03/src/Pirates/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-03/src/Pirates/Ship.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="570">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#main#0;class#GoToCenter#0" />
@@ -142,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PurpleSteps3d.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="105">
               <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,10 +99,9 @@
         <entry file="file://$PROJECT_DIR$/src/Checkerboard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1436#1780#1" />
               </folding>
             </state>
           </provider>
@@ -168,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FunctionToCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="315">
               <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -181,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConnectTheDots.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="195">
               <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -243,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,6 +202,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,16 +288,17 @@
       <workItem from="1554839667209" duration="27602000" />
       <workItem from="1554970096834" duration="196000" />
       <workItem from="1555053421902" duration="1654000" />
+      <workItem from="1555594467328" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29452000" />
+    <option name="totallyTimeSpent" value="29455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10339257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10500808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,6 +439,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkboard2.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#GoToCenter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PositionSquare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -518,6 +473,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RainbowBoxFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#RainbowBoxFunction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PurpleSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -531,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PurpleSteps3d.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="105">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -542,7 +508,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FunctionToCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="315">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -551,20 +517,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RainbowBoxFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#RainbowBoxFunction#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConnectTheDots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="195">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -573,35 +528,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#GoToCenter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Checkboard2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Checkerboard#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Checkerboard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1436#1780#1" />
           </folding>
         </state>
       </provider>
