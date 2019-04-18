@@ -10,9 +10,9 @@ public class Ship {
 
     private List<Pirate> crew;
     private Pirate Captain = new Pirate();
-    private int piratesAlive;
+    private int piratesAlive = 0;
     private int numberOfPirates;
-    int crewScore = piratesAlive - Captain.getNumberOfRumsHad();
+    private int crewScore = piratesAlive - Captain.getNumberOfRumsHad();
 
     public void fillShip() {
         crew = new ArrayList<>();
@@ -26,11 +26,7 @@ public class Ship {
     }
 
     public boolean battle(Ship otherCrew) {
-        if(this.crewScore > otherCrew.crewScore){
-            return true;
-        } else {
-            return false;
-        }
+        return this.crewScore > otherCrew.crewScore;
     }
 
     public void captainInfo() {
@@ -46,14 +42,13 @@ public class Ship {
     }
 
     public void piratesAlive(){
-        int alive = 0;
+        piratesAlive = 0;
         for (int i = 0; i < crew.size(); i++){
             if (crew.get(i).alive){
-                alive++;
+                piratesAlive++;
             }
         }
-        System.out.println("Number of pirates alive: " + alive);
-        piratesAlive = alive;
+        System.out.println("Number of pirates alive: ");
     }
 
     public int getCrewSize() {
