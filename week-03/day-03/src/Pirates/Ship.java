@@ -8,26 +8,55 @@ public class Ship {
     private static int MAX_CREW = 125;
     private static int MIN_CREW = 15;
 
-    private static List<Pirate> crew;
-    private static Pirate Captain;
-
+    private List<Pirate> crew;
+    private Pirate Captain = new Pirate();
+    private int piratesAlive;
     private int numberOfPirates;
+    int crewScore = piratesAlive - Captain.getNumberOfRumsHad();
 
-    public Ship(){
-        int crewSize = numberOfPirates + 1;
-    }
-
-    public void fillShip(){
+    public void fillShip() {
         crew = new ArrayList<>();
-        numberOfPirates = MIN_CREW + (int)(Math.random() * ((MAX_CREW - MIN_CREW) + 1));
+        numberOfPirates = MIN_CREW + (int) (Math.random() * ((MAX_CREW - MIN_CREW) + 1));
 
-        for (int i = 0; i < numberOfPirates; i++){
+        crew.add(Captain);
+
+        for (int i = 0; i < numberOfPirates; i++) {
             crew.add(new Pirate());
         }
-        crew.add(Captain);
     }
 
-    public int getNumberOfPirates() {
-        return numberOfPirates;
+    public boolean battle(Ship otherCrew) {
+        if(this.crewScore > otherCrew.crewScore){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void captainInfo() {
+        System.out.println("The Captain had " + Captain.getNumberOfRumsHad() + " rum/s.");
+
+        if (Captain.isAlive() && !Captain.isAsleep()) {
+            System.out.println("The Captain is alive and awake.");
+        } else if (Captain.isAlive() && Captain.isAsleep()) {
+            System.out.println("The Captain is alive but asleep.");
+        } else {
+            System.out.println("The Captain is dead.");
+        }
+    }
+
+    public void piratesAlive(){
+        int alive = 0;
+        for (int i = 0; i < crew.size(); i++){
+            if (crew.get(i).alive){
+                alive++;
+            }
+        }
+        System.out.println("Number of pirates alive: " + alive);
+        piratesAlive = alive;
+    }
+
+    public int getCrewSize() {
+        return numberOfPirates + 1;
     }
 }

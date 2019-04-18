@@ -2,12 +2,14 @@ package Pirates;
 
 public class Pirate {
 
-    int numberOfRumsHad = 0;
-    boolean alive = true;
-    boolean asleep = false;
+    int numberOfRumsHad;
+    boolean alive;
+    boolean asleep;
 
     public Pirate(){
-
+        this.numberOfRumsHad = 0;
+        this.alive = true;
+        this.asleep = false;
     }
 
     public void drinkSomeRum(){
@@ -41,5 +43,17 @@ public class Pirate {
             asleep = true;
             anotherPirate.asleep = true;
         }
+    }
+
+    public int getNumberOfRumsHad() {
+        return numberOfRumsHad;
+    }
+
+    public boolean isAlive() {
+        return alive;
+    }
+
+    public boolean isAsleep() {
+        return asleep;
     }
 }
