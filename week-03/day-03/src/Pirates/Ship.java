@@ -48,7 +48,7 @@ public class Ship {
                 piratesAlive++;
             }
         }
-        System.out.println("Number of pirates alive: ");
+        System.out.println("Number of pirates alive: " + piratesAlive);
     }
 
     public int getCrewSize() {
