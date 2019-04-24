@@ -1,4 +1,4 @@
-package Instrument;
+package main.java.music;
 
 public abstract class Instrument {
 
@@ -6,7 +6,4 @@ public abstract class Instrument {
 
     public abstract void play();
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }

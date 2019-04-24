@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class MainTest {
     public static void main(String[] args) {
 
-        /* ArrayList<Person> people = new ArrayList<>();
+        ArrayList<Person> people = new ArrayList<>();
 
         Person mark = new Person("Mark", 46, "male");
         people.add(mark);
@@ -44,11 +44,11 @@ public class MainTest {
         awesome.addStudent(john);
         awesome.addMentor(mentor);
         awesome.addMentor(gandhi);
-        awesome.info(); */
+        awesome.info();
 
-        Student john = new Student("John Doe", 20, "male", "BME");
+        Student jon = new Student("John Doe", 20, "male", "BME");
 
-        Student johnTheClone = (Student) john.clone();
+        Student johnTheClone = (Student) jon.clone();
 
         johnTheClone.introduce();
     }

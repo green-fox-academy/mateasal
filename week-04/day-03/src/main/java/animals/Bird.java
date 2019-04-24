@@ -1,11 +1,22 @@
-package animals;
+package main.java.animals;
 
-public class Birds extends Animal {
+import FlyingAround.Flyable;
 
-    public Birds(String name){
+public class Bird extends Animal implements Flyable {
+
+    public Bird(String name){
         this.name = name;
     }
     public String breed(){
         return "laying eggs";
+    }
+
+    public void land(){
+    }
+
+    public void fly(){
+    }
+
+    public void takeOff(){
     }
 }
