@@ -1,6 +1,6 @@
 package GreenFoxOrganization;
 
-public class Student extends Person {
+public class Student extends Person implements Cloneable {
 
     private String previousOrganization;
     private int skippedDays;
@@ -24,6 +24,16 @@ public class Student extends Person {
         skippedDays += numberOfDays;
     }
 
+
+    public Object clone(){
+        try {
+            return super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     @Override
     public void getGoal() {
         System.out.println("My goal is: ");
@@ -35,5 +45,17 @@ public class Student extends Person {
         super.introduce();
         System.out.println(" from " + previousOrganization + " who skipped " + skippedDays
                 + " days from the course already.");
+    }
+
+    public void setPreviousOrganization(String previousOrganization) {
+        this.previousOrganization = previousOrganization;
+    }
+
+    public void setSkippedDays(int skippedDays) {
+        this.skippedDays = skippedDays;
+    }
+
+    public void setGoal(String goal) {
+        this.goal = goal;
     }
 }
