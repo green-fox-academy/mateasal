@@ -48,10 +48,10 @@ public class NumbersTest {
         assertEquals(6, listOfNumbers.sum(testList));
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test (expected = NullPointerException.class)
     public void sumWithNull() {
         List<Integer> testList = new ArrayList<>();
         testList.add(null);
-        assertEquals(1, listOfNumbers.sum(testList));
+        assertEquals(null, listOfNumbers.sum(testList));
     }
 }
