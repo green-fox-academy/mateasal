@@ -1,13 +1,10 @@
 package AircraftCarrier;
 
-public class Aircraft {
+public abstract class Aircraft {
 
-    private int ammunition;
+    int MAX_AMMO;
+    int BASE_DAMAGE;
+    int ammo;
 
-    public Aircraft(){
-    }
 
-    public int getAmmunition() {
-        return ammunition;
-    }
 }
