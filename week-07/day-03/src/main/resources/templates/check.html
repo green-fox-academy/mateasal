@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Search for Students</title>
+</head>
+<body>
+
+<form th:action="@{/gfa/search}" th:method="post">
+    <input name ="result" th:type="text" placeholder="Add name here">
+    <input type="submit">
+</form>
+
+<h1 th:text="${registered} ? 'Registered.' : 'Not found.'"></h1>
+
+<a href="http://localhost:8080/gfa/list">Student List</a>
+
+<a href="http://localhost:8080/gfa">Back to Main Page</a>
+
+</body>
+</html>
