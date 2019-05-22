@@ -17,7 +17,7 @@ public class WikiWordCounter {
     Map<String, Integer> mostCommonWords = wiki.stream()
             .flatMap(str -> Arrays.stream(str.split(" ")))
             .filter(word -> !word.equals(""))
-            .map(word -> word.replace(".", ""))
+            .map(word -> word.replaceAll("\\p{Punct}", ""))
             .collect(Collectors.groupingBy(Function.identity(), Collectors.summingInt(str -> 1)))
             .entrySet()
             .stream()

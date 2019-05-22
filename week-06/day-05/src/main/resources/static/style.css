@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  font-family: 'Helvetica';
+}
+
+table {
+  margin-top: 40px;
+  background-color: #36C5F0;
+  width: 64%;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+th {
+  color: white;
+  padding-left: 30px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.buttons {
+  margin-left: 18%;
+}
+
+#available {
+  margin: 0;
+}
+
+#cheapest {
+  margin: 0;
+}
+
+#nike {
+  margin: 0;
+}
+
+#average {
+  margin: 0;
+}
+
+#button {
+  margin: 0;
+}
+
+h1 {
+  color: #36C5F0;
+  font-size: 30px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #36C5F0;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+input[type="button"] {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #E01E5A;
+  border-radius: 3px;
+  padding: 10px 15px;
+}
+
+input[type="button"], input[type="button"]:active, input[type="button"]:focus {
+  border-color: #E01E5A;
+  border-style: solid;
+}

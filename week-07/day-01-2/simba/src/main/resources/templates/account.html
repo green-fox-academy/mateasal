@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bank Account</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+
+    <h1>Name</h1>
+
+    <h3 th:text="${account.name}"></h3>
+
+    <h1>Balance</h1>
+
+    <h3 th:text="|${#numbers.formatDecimal(account.balance, 1, 2)} Zebra|"></h3>
+
+    <h1>Animal Type</h1>
+
+    <h3 th:text="${account.animalType}"></h3>
+
+</body>
+</html>

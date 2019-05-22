@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="webshop">
+  <meta name="description" content="A cool webshop">
+  <title>Webshop</title>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <h1>My Shop</h1>
+  <div class="buttons">
+    <input type="button" value="ONLY AVAILABLE" id="available">
+    <input type="button" value="CHEAPEST FIRST" id="cheapest">
+    <input type="button" value="CONTAINS NIKE" id="nike">
+    <input type="button" value="AVERAGE STOCK" id="average">
+    <input type="button" value="MOST EXPENSIVE AVAILABLE" id="expensive">
+  </div>
+  
+  <div class="table">
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Decription</th>
+        <th>Price</th>
+        <th>Quantity of Stock</th>
+      </tr>
+      <tr th:each="item : ${items}">
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.getPrice()}"></td>
+        <td th:text="${item.getStock()}"></td>
+      </tr>
+      <tr th:each="item : ${items}">
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.getPrice()}"></td>
+        <td th:text="${item.getStock()}"></td>
+      </tr>
+      <tr th:each="item : ${items}">
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.getPrice()}"></td>
+        <td th:text="${item.getStock()}"></td>
+      </tr>
+      <tr th:each="item : ${items}">
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.getPrice()}"></td>
+        <td th:text="${item.getStock()}"></td>
+      </tr>
+      <tr th:each="item : ${items}">
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="${item.getPrice()}"></td>
+        <td th:text="${item.getStock()}"></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
