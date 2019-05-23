@@ -9,19 +9,23 @@
 <ul>
     <li><a href="http://localhost:8080/attilaclub/attilarepo">Check Out All The Attilas</a></li>
     <li><a href="http://localhost:8080/attilaclub/login">Add New Attila</a></li>
+    <li><a th:href="@{attilaclub/nutrition(name=${attila.name})}">Get Groceries</a></li>
 </ul>
 
 <img alt="image" src="attila.jpg" height="250" width="250">
 
-<p th:utext="'This  is ' + ${name} + '. He knows nothing.'"></p>
+<p th:utext="'This is ' + ${attila.name} + '. He is currently living on '
+                        + ${attila.food} + ' and ' + ${attila.drink} + '.'"></p>
 
 <h2>Known tricks</h2>
 
 <ul>
-    <li>Do Mumbo Jumbo</li>
-    <li>Complain About Spring</li>
-    <li>Tell Dad Jokes</li>
+    <li th:each="trick: ${attila.listOfTricks}">
+        <td th:text="${trick}"></td>
+    </li>
 </ul>
+
+<p th:if="${attila.checkTrickList()}">Your Attila knows no tricks. Utterly useless!</p>
 
 </body>
 </html>

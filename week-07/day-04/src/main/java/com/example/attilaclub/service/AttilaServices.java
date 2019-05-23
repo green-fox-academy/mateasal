@@ -18,7 +18,16 @@ public class AttilaServices {
     attilas.add(attila);
   }
 
-  public Attila search(String name) {
+  public boolean search(String name) {
+    for (Attila attila : attilas) {
+      if (name.equals(attila.getName())) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  public Attila find(String name) {
     for (Attila attila : attilas) {
       if (name.equals(attila.getName())) {
         return attila;

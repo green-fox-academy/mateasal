@@ -6,20 +6,20 @@
 </head>
 <body>
 
+<ul>
+    <li><a href="http://localhost:8080/attilaclub">Add Another One</a></li>
+</ul>
+
 <h2>All The Attilas Out There</h2>
 
 <table>
     <tr>
         <th>Names</th>
     </tr>
-    <tr th:each="name: ${list}">
-        <td th:text="${name.name}"></td>
+    <tr th:each="attila: ${list}">
+        <td th:text="${attila.name}"></td>
     </tr>
 </table>
-
-<ul>
-    <li><a href="http://localhost:8080/attilaclub">Add Another One</a></li>
-</ul>
 
 </body>
 </html>

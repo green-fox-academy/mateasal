@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Attila Club</title>
+</head>
+<body>
+
+<ul>
+<!--    <li><a th:href="@{attilaclub/(name=${name})}">Return to Your Attila</a></li>-->
+</ul>
+
+<h2>Get Your Attila On Some Yummies</h2>
+
+<form th:action="@{/attilaclub/nutrition}" th:method="post">
+    <label>Food</label>
+    <select name = "food" th:type="text">
+        <option th:each="food : ${list}"
+                th:text="${food}"></option>
+    </select>
+    <label>Drink</label>
+    <select name = "drink" th:type="text">
+        <option th:each="drink : ${drinkList}"
+                th:text="${drink}"></option>
+    </select>
+    <input type="submit">
+</form>
+
+</body>
+</html>
