@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Attila Club</title>
+</head>
+<body>
+
+<h2>All The Attilas Out There</h2>
+
+<table>
+    <tr>
+        <th>Names</th>
+    </tr>
+    <tr th:each="name: ${list}">
+        <td th:text="${name.name}"></td>
+    </tr>
+</table>
+
+<ul>
+    <li><a href="http://localhost:8080/attilaclub">Add Another One</a></li>
+</ul>
+
+</body>
+</html>

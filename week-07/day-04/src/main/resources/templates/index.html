@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Attila Club</title>
+</head>
+<body>
+
+<ul>
+    <li><a href="http://localhost:8080/attilaclub/attilarepo">Check Out All The Attilas</a></li>
+    <li><a href="http://localhost:8080/attilaclub/login">Add New Attila</a></li>
+</ul>
+
+<img alt="image" src="attila.jpg" height="250" width="250">
+
+<p th:utext="'This  is ' + ${name} + '. He knows nothing.'"></p>
+
+<h2>Known tricks</h2>
+
+<ul>
+    <li>Do Mumbo Jumbo</li>
+    <li>Complain About Spring</li>
+    <li>Tell Dad Jokes</li>
+</ul>
+
+</body>
+</html>
