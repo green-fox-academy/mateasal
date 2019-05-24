@@ -26,8 +26,15 @@ public class AttilaController {
   @PostMapping("/attilaclub/nutrition")
   public String setNutrition(String food, String drink, String name) {
     Attila attila = attilaServices.find(name);
-    attila.setDrink(food);
-    attila.setFood(drink);
-    return "redirect:attilaclub?name=" + name;
+    attila.setFood(food);
+    attila.setDrink(drink);
+    return "redirect:/attilaclub?name=" + name;
+  }
+
+  @PostMapping("/attilaclub/tricks")
+  public String setTricks(String trick, String name) {
+    Attila attila = attilaServices.find(name);
+    attila.addTrick(trick);
+    return "redirect:/attilaclub?name=" + name;
   }
 }

@@ -28,8 +28,4 @@ public class FoodServices {
   public List<String> findAll() {
     return foods;
   }
-
-  public void save(String student) {
-    foods.add(student);
-  }
 }

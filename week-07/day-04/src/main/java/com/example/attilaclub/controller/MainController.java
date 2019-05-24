@@ -4,6 +4,7 @@ import com.example.attilaclub.model.Attila;
 import com.example.attilaclub.service.AttilaServices;
 import com.example.attilaclub.service.DrinkServices;
 import com.example.attilaclub.service.FoodServices;
+import com.example.attilaclub.service.TrickServices;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -14,12 +15,14 @@ public class MainController {
   private AttilaServices attilaServices;
   private FoodServices foodServices;
   private DrinkServices drinkServices;
+  private TrickServices trickServices;
 
   public MainController(AttilaServices attilaServices, FoodServices foodServices, DrinkServices
-                        drinkServices) {
+                        drinkServices, TrickServices trickServices) {
     this.attilaServices = attilaServices;
     this.foodServices = foodServices;
     this.drinkServices = drinkServices;
+    this.trickServices = trickServices;
   }
 
   @GetMapping("/attilaclub")
@@ -44,6 +47,13 @@ public class MainController {
     model.addAttribute("drinkList", drinkServices.findAll());
     model.addAttribute("name", name);
     return "nutrition";
+  }
+
+  @GetMapping("/attilaclub/tricks")
+  public String getTricks(Model model, @RequestParam (required = false) String name) {
+    model.addAttribute("list", trickServices.findAll());
+    model.addAttribute("name", name);
+    return "tricks";
   }
 
   @GetMapping("/attilaclub/attilarepo")

@@ -35,8 +35,4 @@ public class DrinkServices {
   public List<String> findAll() {
     return drinks;
   }
-
-  public void save(String student) {
-    drinks.add(student);
-  }
 }

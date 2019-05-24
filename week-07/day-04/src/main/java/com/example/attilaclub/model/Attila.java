@@ -1,11 +1,12 @@
 package com.example.attilaclub.model;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Attila {
   String name;
-  List<String> listOfTricks;
+  List<String> listOfTricks = new ArrayList<>();
   String food = "salad";
   String drink = "water";
 
@@ -17,12 +18,16 @@ public class Attila {
     return name;
   }
 
+  public void addTrick(String trick) {
+    listOfTricks.add(trick);
+  }
+
   public List<String> getListOfTricks() {
     return listOfTricks;
   }
 
   public boolean checkTrickList() {
-    if (listOfTricks == null) {
+    if (listOfTricks.size() == 0) {
       return true;
     } else return false;
   }
