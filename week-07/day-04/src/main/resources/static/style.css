@@ -1,0 +1,44 @@
+body {
+    background-color: #F7EDE2;
+    margin: auto;
+    padding: 0;
+    font-family: 'Helvetica';
+}
+
+#banner {
+  text-transform: uppercase;
+  background-color: #EF798A;
+  margin-top: 0;
+}
+
+a {
+  color: #F7EDE2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F5CAC3;
+}
+
+img {
+  border: 1px solid #F7EDE2;
+;
+  box-shadow: 0px 1px 16px -7px rgba(0,0,0,0.75);
+}
+
+.profile {
+  color: #F7EDE2;
+  background-color: #EF798A;
+  margin: 80px 200px;
+  box-shadow: 0px 1px 16px -7px rgba(0,0,0,0.75);
+  padding: 50px 80px;
+  border-radius: 3px;
+}
+
+.identity {
+    float: left;
+  }
+
+.tricks {
+  float: right;
+}

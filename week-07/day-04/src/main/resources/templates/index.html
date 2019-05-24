@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Attila Club</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
 </head>
 <body>
 
-<ul>
+<ul id="banner">
     <li><a href="http://localhost:8080/attilaclub/attilarepo">Check Out All The Attilas</a></li>
     <li><a href="http://localhost:8080/attilaclub/login">Add New Attila</a></li>
     <li><a th:href="@{attilaclub/nutrition(name=${attila.name})}">Get Groceries</a></li>
     <li><a th:href="@{attilaclub/tricks(name=${attila.name})}">Educate Attila</a></li>
 </ul>
 
-<img alt="image" src="attila.jpg" height="250" width="250">
+<div class="profile">
+    <img alt="image" src="attila.jpg" height="250" width="250">
 
-<p th:utext="'This is ' + ${attila.name} + '. He is currently living on '
-                        + ${attila.food} + ' and ' + ${attila.drink} + '.'"></p>
+    <p th:utext="'This is ' + ${attila.name} + '. He is currently living on '
+                            + ${attila.food} + ' and ' + ${attila.drink} + '.'"></p>
 
-<h2>Known tricks</h2>
+    <h2>Known tricks</h2>
 
-<ul>
-    <li th:each="trick: ${attila.listOfTricks}">
-        <td th:text="${trick}"></td>
-    </li>
-</ul>
+    <ul>
+        <li th:each="trick: ${attila.listOfTricks}">
+            <td th:text="${trick}"></td>
+        </li>
+    </ul>
 
-<p th:if="${attila.checkTrickList()}">Your Attila knows no tricks. Utterly useless!</p>
+    <p th:if="${attila.checkTrickList()}">Your Attila knows no tricks. Utterly useless!</p>
+</div>
 
 </body>
 </html>

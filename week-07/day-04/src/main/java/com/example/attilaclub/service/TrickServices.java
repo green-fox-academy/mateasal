@@ -17,7 +17,7 @@ public class TrickServices {
     tricks.add("Pick up Chicks");
     tricks.add("Float his Boat");
     tricks.add("Gányolás");
-    tricks.add("Say the Sickest Burns");
+    tricks.add("Drop the Sickest Burns");
     tricks.add("Drop the Mic");
     tricks.add("Ruin Pool Forever");
     tricks.add("Pick his Nose");
