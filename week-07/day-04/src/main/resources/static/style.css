@@ -6,9 +6,14 @@ body {
 }
 
 #banner {
+  display: flex;
   text-transform: uppercase;
   background-color: #EF798A;
   margin-top: 0;
+}
+
+li {
+  margin: 20px auto;
 }
 
 a {
@@ -22,7 +27,6 @@ a:hover {
 
 img {
   border: 1px solid #F7EDE2;
-;
   box-shadow: 0px 1px 16px -7px rgba(0,0,0,0.75);
 }
 
@@ -35,10 +39,113 @@ img {
   border-radius: 3px;
 }
 
+.flex {
+    display: flex;
+}
+
 .identity {
-    float: left;
+  float: left;
+  margin: 10px;
+  padding: 10px;
   }
 
 .tricks {
   float: right;
+  margin-left: 100px;
+  padding: 10px;
+}
+
+.repo {
+  color: #F7EDE2;
+  background-color: #EF798A;
+  margin: 80px 400px;
+  box-shadow: 0px 1px 16px -7px rgba(0,0,0,0.75);
+  padding: 20px 80px;
+  border-radius: 3px;
+}
+
+.buffet {
+  color: #F7EDE2;
+  background-color: #EF798A;
+  margin: 80px 300px;
+  box-shadow: 0px 1px 16px -7px rgba(0,0,0,0.75);
+  padding: 20px 80px;
+  border-radius: 3px;
+}
+
+.register {
+  margin-top: 150px;
+  text-align: center;
+}
+
+h1 {
+  color: #2D232E;
+  font-size: 50px;
+}
+
+p {
+  color: #2D232E;
+  font-size: 20px;
+}
+
+form
+{
+  height: 96px;
+}
+
+input {
+  color: #2D232E;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+input[name="name"] {
+  margin-top: 20px;
+  padding-left: 20px;
+  background-color: floralwhite;
+  width: 35%;
+  height: 90px;
+  font-size: 60px;
+  line-height: 1;
+  border-radius: 3px;
+}
+
+input[name="name"]::placeholder
+{
+  color: #F7EDE2;
+}
+
+select {
+  margin: auto 10px;
+  width: 110px;
+  height: 25px;
+}
+
+select[name="trick"] {
+  margin: auto 15px;
+  width: 250px;
+  height: 25px;
+}
+
+input[name="button"] {
+  border-radius: 3px;
+  color: #F7EDE2;
+  font-size: 60px;
+  background-color: #2D232E;
+  width: 120px;
+  height: 90px;
+  cursor: pointer;
+}
+
+input[name="foodbutton"] {
+  border-radius: 3px;
+  color: #F7EDE2;
+  font-size: 15px;
+  background-color: #474448;
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 40px;
 }

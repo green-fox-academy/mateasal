@@ -2,25 +2,28 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Attila Club</title>
+    <title>Attila Repository</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
 
-<ul>
+<ul id="banner" style="list-style: none">
     <li><a th:href="@{/attilaclub(name=${name})}">Return to Your Attila</a></li>
     <li><a href="http://localhost:8080/attilaclub">Add Another One</a></li>
 </ul>
 
-<h2>All The Attilas Out There</h2>
+<div class="repo">
+  <h2>All The Attilas Out There</h2>
 
-<table>
-    <tr>
-        <th>Names</th>
-    </tr>
-    <tr th:each="attila: ${list}">
-        <td th:text="${attila.name}"></td>
-    </tr>
-</table>
+  <table>
+      <tr>
+          <th>Names</th>
+      </tr>
+      <tr th:each="attila: ${list}">
+          <td th:text="${attila.name}"></td>
+      </tr>
+  </table>
+</div>
 
 </body>
 </html>

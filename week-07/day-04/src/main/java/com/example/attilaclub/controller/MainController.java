@@ -26,7 +26,7 @@ public class MainController {
   }
 
   @GetMapping("/attilaclub")
-  public String newIndex(@RequestParam(required = false) String name, Model model) {
+  public String newIndex(@RequestParam(value = "name", required = false) String name, Model model) {
     if (name == null) {
       return "login";
     } else if (attilaServices.search(name)) {
@@ -42,7 +42,7 @@ public class MainController {
   }
 
   @GetMapping("/attilaclub/nutrition")
-  public String getNutrition(Model model, @RequestParam (required = false) String name) {
+  public String getNutrition(Model model, @RequestParam (value = "name", required = false) String name) {
     model.addAttribute("list", foodServices.findAll());
     model.addAttribute("drinkList", drinkServices.findAll());
     model.addAttribute("name", name);
@@ -50,14 +50,14 @@ public class MainController {
   }
 
   @GetMapping("/attilaclub/tricks")
-  public String getTricks(Model model, @RequestParam (required = false) String name) {
+  public String getTricks(Model model, @RequestParam (value = "name", required = false) String name) {
     model.addAttribute("list", trickServices.findAll());
     model.addAttribute("name", name);
     return "tricks";
   }
 
   @GetMapping("/attilaclub/attilarepo")
-  public String getAttilas(Model model, @RequestParam (required = false) String name) {
+  public String getAttilas(Model model, @RequestParam (value = "name", required = false) String name) {
     model.addAttribute("list", attilaServices.getAttilas());
     model.addAttribute("name", name);
     return "attilarepo";

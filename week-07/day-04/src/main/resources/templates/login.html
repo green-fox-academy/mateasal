@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
 
-<h1>Welcome to the Attila Club!</h1>
+<div class="register">
+  <h1>Welcome to the Attila Club!</h1>
 
-<p>Please provide a name, so you can associate it to your Attila!</p>
+  <p>Please provide a name, so you can associate it to your Attila.</p>
 
-<form th:action="@{/attilaclub/login}" th:method="post">
-    <input name ="name" th:type="text" placeholder="Add name here">
-    <input type="submit" value="GO">
-</form>
-
+  <form th:action="@{/attilaclub/login}" th:method="post">
+      <input name ="name" th:type="text" placeholder="Add name here">
+      <input name="button" type="submit" value="GO">
+  </form>
+</div>
 </body>
 </html>

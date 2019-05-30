@@ -1,7 +1,6 @@
 package com.example.attilaclub.model;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Attila {
@@ -29,7 +28,8 @@ public class Attila {
   public boolean checkTrickList() {
     if (listOfTricks.size() == 0) {
       return true;
-    } else return false;
+    }
+    return false;
   }
 
   public String getFood() {

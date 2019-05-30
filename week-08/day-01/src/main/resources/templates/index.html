@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Thymeleaf Exercise #</title>
+<!--  <link rel="stylesheet" th:href="@{/style.css}"/>-->
+  <meta charset="utf-8"/>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid black;
+      padding: 1px;
+    }
+  </style>
+</head>
+<body>
+<a href="/createTopic" class="myButton">Add author</a>
+<p th:if="${topics.size()} == 0 ">No authors added yet</p>
+<div th:unless="${topics.size()} == 0 ">
+  <table class="paleBlueRows">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Book Title</th>
+      <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="topic : ${topics}">
+      <td th:text="${topic.name}"></td>
+      <td th:text="${topic.description}"></td>
+<!--      <td><a th:href= "|@{/delete}?id=${author.id}|" >Delete</a> </td>-->
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
